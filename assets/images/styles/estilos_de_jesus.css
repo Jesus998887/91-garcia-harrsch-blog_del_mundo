@@ -5,5 +5,17 @@ body{
 }
 article{
     background-color:rgb(red, green, blue) 44,43,43;
+
+ 
+
+
+} 
+
+.resaltado { 
+    color: yellow; 
+} 
+
+#titulo_del_blog { text-align: center; font-size: 3rem;} 
+      
     
      
