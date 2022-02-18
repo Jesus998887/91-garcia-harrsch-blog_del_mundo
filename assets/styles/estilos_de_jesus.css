@@ -1,4 +1,4 @@
-/*referencia por palabra clave*/ 
+/*clases generales*/ 
 body{ 
     background-color: black;
     color: white;
@@ -6,17 +6,61 @@ body{
 article{
     background-color:rgb(red, green, blue) 44,43,43;
     padding: 1.5rem;
-
- 
-
+    border-bottom: 1px solid #ffffff;
 
 } 
+
+#titulo_del_blog { text-align: center; font-size: 3rem;} 
+
+/*terminan clases generales */ 
+
+/*barra de navegacion*/ 
+
+
 
 .resaltado { 
     color: yellow; 
 } 
 
-#titulo_del_blog { text-align: center; font-size: 3rem;} 
+nav>ul>li {
+    list-style: none;   
+} 
+
+nav>ul>li {
+    text-decoration: none; 
+} 
+
+/*fin barra de navegacion*/ 
+
+/*footer del blog*/ 
+
+#footer_blog{ 
+    margin: 2rem;
+}    
+
+/*fin footer del blog*/ 
+
+/*ilustraciones*/ 
+
+.ilustracion  { 
+    border: solid, 4px,white;
+    display: inline;
+    
+       
+    
+}   
+
+.ilustracion figcaption {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+/*fin ilustraciones*/ 
+
+
+  
+
       
     
      
