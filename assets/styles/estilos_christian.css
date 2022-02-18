@@ -11,4 +11,15 @@ article{
 .resaltado {
     color:yellow;
 }
-#titulo_del_blog{text-align: center; front-size: 3rem;}
+.titulo{
+    text-align: center;
+    font-size: 3rem;
+}
+article{
+    padding: 1.5rem;
+    border-bottom: 1px, solid, white;
+}
+.ilustracion{
+    border: 4px, solid, white;
+}
+#titulo_del_blog{text-align: center; font-size: 3rem;}
