@@ -8,3 +8,7 @@ article{
     padding: 1.5rem;
     border-bottom: 1px #ffffff;
 }
+.resaltado {
+    color:yellow;
+}
+#titulo_del_blog{text-align: center; front-size: 3rem;}
