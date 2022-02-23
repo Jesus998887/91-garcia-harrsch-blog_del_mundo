@@ -1,6 +1,6 @@
 /*clases generales*/ 
 body{  
-    background-color: wheat;
+    background-color: black;
     color: white;
 }
 article{
@@ -26,8 +26,9 @@ nav>ul>li {
     list-style: none;   
 } 
 
-nav>ul>li {
+nav>ul>li>a {
     text-decoration: none; 
+
 } 
 
 /*fin barra de navegacion*/ 
@@ -46,7 +47,6 @@ nav>ul>li {
     border: solid, 4px,white;
     display: inline;
     
-       
     
 }   
 
