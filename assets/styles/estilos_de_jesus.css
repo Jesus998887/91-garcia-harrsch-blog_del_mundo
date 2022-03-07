@@ -44,8 +44,8 @@ nav>ul>li>a {
 /*ilustraciones*/ 
 
 .ilustracion  { 
-    border: solid, 4px,white;
-    display: inline;
+    border: 4px white solid;
+    display: inline-block;
     
     
 }   
