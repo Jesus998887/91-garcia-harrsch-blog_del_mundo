@@ -1,6 +1,6 @@
 /*referencia por palabra clave*/
 body {
-    background-color: wheat;
+    background-color: black;
     color:white;
 }
 article{
@@ -20,7 +20,8 @@ article{
     border-bottom: 1px, solid, white;
 }
 .ilustracion{
-    border: 4px, solid, white;
+    border: 4px white solid;
+    display: inline-block;
 }
 #titulo_del_blog{text-align: center; font-size: 3rem;}
 
