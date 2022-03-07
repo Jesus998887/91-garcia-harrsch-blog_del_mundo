@@ -73,12 +73,26 @@ section {
 
 /* Termina grid */
 
+/* apunta sólo a los header que son hijos directos de section */
+section>header {
+    /* esta sección se extenderá 12 columnas. */
+    grid-column: span 12;
+}
+
+section>main {
+
+    grid-column: span 8;
+} 
+
+section>aside {
+
+    grid-column: span 4;
+} 
 
 
+section>footer {
 
-
-  
-
-      
+    grid-column: span 12;
+} 
     
      
