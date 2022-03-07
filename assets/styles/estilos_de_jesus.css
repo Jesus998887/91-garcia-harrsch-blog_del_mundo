@@ -1,5 +1,5 @@
 /*clases generales*/ 
-body{ 
+body{  
     background-color: black;
     color: white;
 }
@@ -26,8 +26,9 @@ nav>ul>li {
     list-style: none;   
 } 
 
-nav>ul>li {
+nav>ul>li>a {
     text-decoration: none; 
+
 } 
 
 /*fin barra de navegacion*/ 
@@ -43,10 +44,9 @@ nav>ul>li {
 /*ilustraciones*/ 
 
 .ilustracion  { 
-    border: solid, 4px,white;
-    display: inline;
+    border: 4px white solid;
+    display: inline-block;
     
-       
     
 }   
 
@@ -57,6 +57,24 @@ nav>ul>li {
 }
 
 /*fin ilustraciones*/ 
+
+/* grid */
+section {
+    
+    /* despliégate como  grid */
+    display: grid;
+    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(12, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
+}
+
+/* Termina grid */
+
+
+
 
 
   
