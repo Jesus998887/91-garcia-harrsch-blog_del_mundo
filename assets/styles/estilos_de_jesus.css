@@ -102,6 +102,30 @@ nav {
     font-size: 1.3rem ;
 } 
 
+nav>ul>li>a:hover {
+
+    text-decoration: underline;
+    color: greenyellow;
+
+
+} 
+
+/*selecciona el <ul> que es hijo de <nav> */
+
+nav> ul {
+
+    /*despliegalo como flex*/
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;
+} 
+     
+    
+  
+
 
 
 
