@@ -17,7 +17,7 @@ article{
 }
 article{
     padding: 1.5rem;
-    border-bottom: 1px, solid, white;
+    border-bottom: 1px  solid white;
 }
 .ilustracion{
     border: 4px white solid;
@@ -33,17 +33,3 @@ nav>ul>li {
 nav>ul>li {
     text-decoration: none;
 }
-/* grid */
-section {
-    
-    /* despliégate como  grid */
-    display: grid;
-    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
-    grid-template-columns: repeat(12, 1fr);
-    /* deja que las filas(renglones) ocupen el alto que necesitan */
-    grid-auto-rows: auto;
-    /* añade un espacio entre los elementos del grid de 3rem */
-    gap: 3rem;
-}
-
-/* Termina grid */
