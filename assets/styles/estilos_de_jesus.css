@@ -124,10 +124,20 @@ nav> ul {
 } 
      
     
-  
+hgroup>header>article { 
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+} 
 
+h2>hgroup>header>article { 
+    display: flex;
+    text-align: center;
+} 
 
-
+img>h2>hgroup>header>article { 
+    margin-right: 1rem;
+} 
 
 
 
