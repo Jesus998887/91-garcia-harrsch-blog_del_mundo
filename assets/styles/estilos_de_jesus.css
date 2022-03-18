@@ -38,8 +38,14 @@ nav>ul>li>a {
 /*footer del blog*/ 
 
 #footer_blog{ 
+  
     margin: 2rem;
-}    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}  
+
 
 /*fin footer del blog*/ 
 
@@ -139,10 +145,3 @@ img>h2>hgroup>header>article {
     margin-right: 1rem;
 } 
 
-
-
-
-
-
-    
-     
