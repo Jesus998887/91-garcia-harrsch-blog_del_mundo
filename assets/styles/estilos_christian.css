@@ -63,3 +63,18 @@ section>aside{
 section>footer{
     grid-column: span 12;
 }
+
+/* selecciona el <ul> que es hijo de <nav> */
+nav { 
+
+    font-size: 1.3rem ;
+} 
+
+nav>ul>li>a:hover {
+
+    text-decoration: underline;
+    color: greenyellow;
+
+
+} 
+    /* despliegalo como felex */
