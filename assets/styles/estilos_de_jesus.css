@@ -43,6 +43,8 @@ nav>ul>li>a {
     display: flex;
     text-align: center;
     justify-content: space-between;
+    padding: 4rem 4rem 0rem 0rem;
+    font-size: 1.3rem;
     
 }  
 
@@ -145,3 +147,8 @@ img>h2>hgroup>header>article {
     margin-right: 1rem;
 } 
 
+#footer_blog div:nth-child(2) {
+ 
+    font-size: 0.9rem;
+
+}      
