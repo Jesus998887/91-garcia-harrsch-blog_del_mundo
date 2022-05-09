@@ -173,3 +173,9 @@ aside>div:nth-of-type(even){
 
 }
 
+aside>div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
